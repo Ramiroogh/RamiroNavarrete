@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image"
 
 interface GridProps {
@@ -7,15 +8,14 @@ interface GridProps {
 const GridComponent: React.FC<GridProps> = ({ item }) => {
 
     return(
-        <div className="grid-container">
-            <div className="flex">
-                <Image src={item.imageUrl} width={10} height={10} alt="image" priority/>
-                <div>
-                    <p className="">{item.title}</p>
-                    <p className="">{item.description}</p>
-                </div>
+        <div className="flex items-center p-3 hover:bg-secondary rounded-md">
+            <div className="mr-4">
+            <Image src={item.imageUrl} width={30} height={30} alt="image" priority />
             </div>
-
+            <div>
+                <p className="font-medium">{item.title}</p>
+                <p className="font-normal text-xs">{item.description}</p>
+            </div>
         </div>
     )
 }
