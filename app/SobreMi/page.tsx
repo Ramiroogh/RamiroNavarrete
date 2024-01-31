@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function SobreMi() {
 
     return(
-        <div className="mt-3 ml-3 flex flex-col">
+        <div className="p-10 flex flex-col">
 
             <section className="flex gap-10">
 

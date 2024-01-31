@@ -6,7 +6,7 @@ import Navbar from "./NavbarFromSidebar";
 export default function Sidebar() {
 
     return(
-        <div className="flex flex-col bg-background w-1/4 h-screen border-r-2 border-gray-300">
+        <div className="flex flex-col sticky top-0 bg-background min-w-56 max-w-56 h-screen border-r-2 border-gray-300">
             
             <div className="flex justify-center gap-3 mt-4">
                 <Image src="/profile.jpg" width={40} height={40} alt="profile" className="rounded-full"/>
