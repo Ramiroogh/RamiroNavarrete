@@ -22,7 +22,16 @@ export default {
       {
         title: 'Fecha',
         name: 'releaseDate',
-        type: 'date'
+        type: 'date',
+        options: {
+          dateFormat: 'YYYY-MM-DD',
+          calendarTodayLabel: 'Today'
+        }
+      },
+      {
+        title: 'Enlace del Trabajo',
+        name: 'link',
+        type: 'string'
       },
       {
         name: 'slug',
