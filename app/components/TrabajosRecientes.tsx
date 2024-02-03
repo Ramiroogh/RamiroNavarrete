@@ -21,7 +21,7 @@ export default async function  TrabajosRecientes() {
         <div className="mt-5">
             <h2 className="text-2lg font-bold tracing-tight text-primary">Trabajos Recientes</h2>
 
-            <div className="mt-6 grid frid-cols-1 gap-x-6 gap-y-10 sm:frid-cols2 lg:grid-cols-4 xl:gap-x-8">
+            <div className="mt-6 grid frid-cols-1 gap-x-6 gap-y-10 sm:grid-cols2 lg:grid-cols-4 xl:gap-x-8">
                     {data.map((job) => (
                         <div key={job._id} className="group relative">
                             <div className="aspect-square w-52 overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:h-80">
