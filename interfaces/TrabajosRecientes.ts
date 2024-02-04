@@ -3,6 +3,5 @@ interface TrabajosRecientes {
     imageUrl: string,
     slug: string,
     name: string,
-    releaseDate: string,
     categoryName: string
 }
