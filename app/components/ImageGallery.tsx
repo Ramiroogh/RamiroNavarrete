@@ -21,7 +21,7 @@ export default function ImageGallery({images}: iAppProps) {
 
             <div className=" flex flex-col gap-5  ">
                 {images.map((image: any, index: any) => (
-                    <div key={index} className="w-40 overflow-hidden rounded-lg">
+                    <div key={index} className="w-32 overflow-hidden rounded-lg">
                         <Image
                         src={urlFor(image).url()}
                         alt="image"
@@ -36,7 +36,7 @@ export default function ImageGallery({images}: iAppProps) {
             </div>
             
             {/* Vista de la imagen GRANDE */}
-            <div className="fixed right-10 top-10 w-1/2   ">
+            <div className="w-96   ">
                 <Image
                 src={urlFor(bigImage).url()}
                 width={1000}
