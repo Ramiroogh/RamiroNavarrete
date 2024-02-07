@@ -130,9 +130,8 @@ export default function Herramientas() {
         <div className="m-10 flex flex-col">
              <div className=" flex flex-col gap-3 ">
                 <h1 className="text-4xl font-semibold tracking-normal scroll-m-20 capitalize">Mi Stack de Herramientas</h1>
-                <p className="">Softwares y Herramientas que utilizo frecuentemente, impulsan mi eficiencia en el trabajo</p>
+                <p className="text-lg">Softwares y Herramientas que utilizo frecuentemente, impulsan mi eficiencia en el trabajo</p>
             </div>
-            
             
             <section className="flex flex-col gap-3 mt-10">
                 <div className="flex items-center gap-5">
@@ -147,7 +146,6 @@ export default function Herramientas() {
                 </div>
             </section>
 
-           
             <section className="flex flex-col gap-3 mt-10">
                 <div className="flex items-center gap-5">
                     <h2 className="text-3xl font-semibold tracking-normal capitalize text-primary">Diseño UX UI</h2>
@@ -160,7 +158,6 @@ export default function Herramientas() {
                     ))}
                 </div>
             </section>
-
             
             <section className="flex flex-col gap-3 mt-10">
                 <div className="flex items-center gap-5">

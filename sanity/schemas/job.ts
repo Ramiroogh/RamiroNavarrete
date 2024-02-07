@@ -54,6 +54,17 @@ export default {
         to: [{
             type: 'category'
         }]
-    }
+    },
+    {
+      name: 'technologies',
+      title: 'Tecnologias',
+      type: 'array',
+      of: [
+        {
+          type: 'reference',
+          to: [{ type: 'technology' }],
+        },
+      ],
+    },
     ]
 }

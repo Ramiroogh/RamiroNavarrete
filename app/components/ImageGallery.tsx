@@ -17,7 +17,7 @@ export default function ImageGallery({images}: iAppProps) {
 
     return(
         <>
-        <div className="flex gap-3 p-10">
+        <div className="flex p-10 gap-20">
 
             <div className=" flex flex-col gap-5  ">
                 {images.map((image: any, index: any) => (
@@ -25,7 +25,7 @@ export default function ImageGallery({images}: iAppProps) {
                         <Image
                         src={urlFor(image).url()}
                         alt="image"
-                        className="h-full w-full object-cover object-center cursor-pointer"
+                        className="h-full w-full object-cover object-center cursor-pointer transition-transform duration-300 transform hover:scale-110 hover:shadow-xl"
                         width={500}
                         height={500}
                         priority
@@ -36,14 +36,14 @@ export default function ImageGallery({images}: iAppProps) {
             </div>
             
             {/* Vista de la imagen GRANDE */}
-            <div className="w-96   ">
+            <div className="w-96">
                 <Image
                 src={urlFor(bigImage).url()}
                 width={1000}
                 height={1000}
                 alt="image"
                 priority
-                className="rounded-lg"
+                className="rounded-lg shadow-lg"
                 />
             </div>
             

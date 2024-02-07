@@ -55,7 +55,7 @@ const Estudios: React.FC = () => {
                 <p className="">Mi formación profesional se basa en mi experiencia laboral en Agencias, y de manera Freelancer. Y sobre todo gracias a mi capacitación por medio de Instituciones Educativas avaladas por el Gobierno Nacional Argentino, cursos ofrecidos por Grandes Empresas Tecnológicas y sobretodo por mi aprendizaje de forma Autodidacta y continua.</p>
             </div>
 
-            <section className="flex gap-3 mt-10 w-4/5 items-center bp-4 border rounded-md border-gray-200">
+            <section className="flex gap-3 mt-10 w-4/5 items-center p-5 border rounded-lg border-gray-200 hover:shadow-xl transition duration-300">
                 <div className="flex flex-col gap-2">
                     <h2 className="text-2xl font-semibold tracking-normal scroll-m-20 capitalize">Universidad Tecnológica Nacional UTN</h2>
                     <p className="font-medium">Diplomado: Desarrollador Web Fullstack</p>
