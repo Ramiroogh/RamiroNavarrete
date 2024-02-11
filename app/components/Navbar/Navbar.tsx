@@ -7,7 +7,7 @@ import Links from "./Links";
 export default function Navbar() {
 
     return(
-        <div className="flex justify-around items-center z-20 sticky top-0 bg-blue-600 bg-opacity-80 backdrop-blur-md backdrop-filter backdrop-brightness-75 backdrop-saturate-70 w-full h-16 bg-gradient-to-r from-blue-800 to-blue-500">
+        <div className="flex justify-around items-center z-20 sticky top-0 bg-opacity-80 backdrop-blur-md backdrop-filter backdrop-brightness-75 backdrop-saturate-70 w-screen h-16 bg-gradient-to-r from-blue-800 to-blue-500">
             
             <div className="flex justify-center items-center gap-3">
                 <div>

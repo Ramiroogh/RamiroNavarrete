@@ -10,9 +10,9 @@ export default function Home() {
   
 
   return (
-    <div>
+    <div className="w-screen flex flex-col items-center">
       {/* BANNER */}
-      <div className="relative w-full md:w-auto h-72 p-10 flex items-center">
+      <div className="relative w-screen h-72 p-10 flex items-center">
         
         <div className="absolute inset-0 z-0">
           <video autoPlay muted loop className="object-cover w-full h-full">
@@ -36,7 +36,7 @@ export default function Home() {
       </div>
 
       {/* HERO */}
-      <div className="flex flex-col justify-center items-center gap-3 w-screen py-20">
+      <div className="flex flex-col justify-center items-center gap-3 w-3/4 py-20">
         <h1 className='max-w-3xl text-center text-6xl font-bold'>
         Transformando Conceptos en{' '}
           <span className='text-blue-600'>Realidad</span>{' '}

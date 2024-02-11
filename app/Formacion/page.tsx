@@ -48,17 +48,17 @@ const Capacitaciones: GridItemCapacitacion[] = [
 const Estudios: React.FC = () => {
 
     return (
-        <div className="p-10 flex flex-col w-4/5">
+        <div className="p-10 flex flex-col items-center w-screen">
             
              <div className=" flex flex-col gap-3 w-4/5">
                 <h1 className="text-4xl font-semibold tracking-normal lg:5xl capitalize">Formación Academica</h1>
                 <p className="">Mi formación profesional se basa en mi experiencia laboral en Agencias, y de manera Freelancer. Y sobre todo gracias a mi capacitación por medio de Instituciones Educativas avaladas por el Gobierno Nacional Argentino, cursos ofrecidos por Grandes Empresas Tecnológicas y sobretodo por mi aprendizaje de forma Autodidacta y continua.</p>
             </div>
 
-            <section className="flex gap-3 mt-10 w-4/5 items-center p-5 border rounded-lg border-gray-200 hover:shadow-xl transition duration-300">
+            <section className="flex gap-3 mt-10 mb-10 w-4/5 items-center p-10 rounded-lg border-gray-200  hover:shadow-xl border-8 transition duration-300">
                 <div className="flex flex-col gap-2">
                     <h2 className="text-2xl font-semibold tracking-normal scroll-m-20 capitalize">Universidad Tecnológica Nacional UTN</h2>
-                    <p className="font-medium">Diplomado: Desarrollador Web Fullstack</p>
+                    <p className="font-medium mt-10">Diplomado: Desarrollador Web Fullstack</p>
                     <p className="">Capacitación formal con una duracion de 9 meses. Fundamentos del Frontend, Html - Javascript - React - Next js. y profundizando el area de Backend, Bases de datos (MySQL & MongoDB), Express, Node, API arquitecture.</p>
                     <i className="text-sm">Noviembre 2022 - Julio 2023</i>
                 </div>
@@ -76,7 +76,7 @@ const Estudios: React.FC = () => {
                 <h2 className="text-4xl text-primary font-semibold tracking-normal lg:5xl capitalize">Certificaciones</h2>
                 <p className="">Las empresas que señalo a continuacion, ayudaron a potenciar mis habilidades profesionales mediante cursos, capacitaciones intensivas y desarrollo de proyectos.</p>
 
-                <div className="grid grid-cols-3 grid-rows-4 gap-5 p-5 rounded border border-gray-300">
+                <div className="grid grid-cols-3 grid-rows-4 mt-5 gap-5 p-5 rounded border border-gray-300">
                     {Capacitaciones.map((item, index) => (
                         <FormacionItem key={index} item={item} />
                     ))}

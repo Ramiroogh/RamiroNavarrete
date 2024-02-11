@@ -56,15 +56,9 @@ export default {
         }]
     },
     {
-      name: 'technologies',
+      name: 'technology',
       title: 'Tecnologias',
-      type: 'array',
-      of: [
-        {
-          type: 'reference',
-          to: [{ type: 'technology' }],
-        },
-      ],
-    },
+      type: 'string',
+    }
     ]
 }

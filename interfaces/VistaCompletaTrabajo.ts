@@ -6,6 +6,7 @@ interface job {
     objetive: string,
     releaseDate: string,
     link: string,
+    technology: string,
     slug: string;
     categoryName: string;
 }

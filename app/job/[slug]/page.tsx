@@ -21,6 +21,7 @@ async function getData(slug: string) {
         description,
         objetive,
         releaseDate,
+        technology,
         link,
         "slug": slug.current,
         "categoryName": category->name,
@@ -42,9 +43,12 @@ export default async function JobUI({ params } : { params: {slug: string} }) {
 
                 <SheetContent className="w-96">
                     <SheetHeader>
-                    <SheetTitle className="mt-5">
-                        <p>{data.name}</p>
+                    <SheetTitle >
+                        <div className="mt-5">
+                            <p>{data.name}</p>
                         <p className="text-orange-500">Categoria: {data.categoryName}</p>
+                        </div>
+                        
                     </SheetTitle>
 
                     <SheetDescription>
@@ -52,9 +56,20 @@ export default async function JobUI({ params } : { params: {slug: string} }) {
                         <p>{data.description}</p>
                     </SheetDescription>
 
-                    <SheetDescription>
-                        <p className="text-sm font-bold">Objetivo</p>
+                    <SheetDescription >
+                        <div className="mt-5">
+                            <p className="text-sm font-bold">Objetivo</p>
                         <p>{data.objetive}</p>
+                        </div>
+                        
+                    </SheetDescription>
+
+                    <SheetDescription >
+                        <div className="mt-5 mb-10">
+                            <p className="text-sm font-bold">Tecnologías Utilizadas</p>
+                        <p>{data.technology}</p>
+                        </div>
+                        
                     </SheetDescription>
 
                     {/* Si existe enlace, se renderiza el boton */}
