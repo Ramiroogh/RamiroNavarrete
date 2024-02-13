@@ -1,0 +1,51 @@
+
+.container-reseña {
+    /* width: 100%;
+    max-width: 350px;
+    height: 100%;
+    max-height: 250px; */
+
+    width: 280px;
+    height: 250px;
+    border: 3px solid #fff;
+    background-color: rgb(55, 55, 56);
+}
+.container-reseñas {
+    background-color: #06427a;
+}
+.reseña-description p {
+    width: 230px;
+}
+
+
+.slick-prev:before, .slick-next:before {
+    color: #A9A9A9 !important;
+  
+  }
+
+@media (max-width: 1085px) {
+    .container-cards-carousel {
+        width: 600px;
+    }
+}
+@media (max-width: 700px) {
+    .container-cards-carousel {
+        width: 300px;
+    }
+}
+
+@media (max-width: 500px) {
+    .title-reseñas {
+        font-size: 25px;
+        margin-top: 10px;
+    }
+    .reseñas-description-responsive-mobile {
+        font-size: 1rem;
+        width: 300px;
+    }
+}
+@media (max-width: 900px) and (min-width: 500px) {
+    .title-reseñas {
+        font-size: 2rem;;
+    }
+}

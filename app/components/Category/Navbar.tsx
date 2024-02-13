@@ -15,13 +15,13 @@ export default function Navbar() {
     const pathname = usePathname()
     return(
         <div>
-            <nav className="p-3 bg-gray-800 flex justify-center">
+            <nav className="p-3 bg-blue-600 flex justify-center gap-5">
                 {links.map((link, index) => (
                     <div key={index}>
                         <Link 
                         href={link.href}
-                        className={pathname === link.href ? "text-orange-300 font-medium text-lg flex items-center gap-2 px-2"
-                        : "flex items-center gap-2 text-lg font-medium px-2 text-white"}>
+                        className={pathname === link.href ? "text-orange-300 font-medium text-sm flex items-center gap-2 px-2"
+                        : "flex items-center gap-2 text-sm font-medium px-2 text-white"}>
                             {link.name === 'Diseño UX UI' ? <PenTool className="text-white w-4"/> : link.name === 'Web Frontend' ? <TabletSmartphone className="text-white w-4"/> : link.name === 'Web Backend' ? <DatabaseZap className="text-white w-4"/> : link.name === 'Web Fullstack' ? <Computer className="text-white w-4"/> : null} {link.name}
                         </Link>
                     </div>

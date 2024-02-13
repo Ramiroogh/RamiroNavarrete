@@ -36,7 +36,7 @@ export default function ImageGallery({images}: iAppProps) {
             </div>
             
             {/* Vista de la imagen GRANDE */}
-            <div className="w-96">
+            <div className="w-jobImageBig h-jobImageBig">
                 <Image
                 src={urlFor(bigImage).url()}
                 width={1000}

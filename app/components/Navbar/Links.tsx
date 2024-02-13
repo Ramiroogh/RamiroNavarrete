@@ -22,10 +22,10 @@ export default function Links() {
                 <div key={index} className="">
                     <Link
                         href={link.href}
-                        className={pathname === link.href ? "text-orange-300 font-medium text-lg flex items-center gap-2 px-2"
-                        : "flex items-center gap-2 text-lg font-medium px-2 text-white"}
+                        className={pathname === link.href ? "text-blue-400 font-medium text-lg flex items-center gap-2 px-2"
+                        : "flex items-center gap-2 text-lg font-medium px-2"}
                         >
-                            {link.name === 'Inicio' ? <Home className="text-white w-4" /> : link.name === 'Sobre Mi' ? <CircleUserRound className="text-white w-4" /> : link.name === 'Herramientas' ? <Wrench className="text-white w-4" /> : link.name === 'Trabajos' ? <Presentation className="text-white w-4" /> : link.name === 'Formacion' ? <School className="text-white w-4" /> : null} {link.name}
+                            {link.name === 'Inicio' ? <Home className=" w-4" /> : link.name === 'Sobre Mi' ? <CircleUserRound className="w-4" /> : link.name === 'Herramientas' ? <Wrench className="w-4" /> : link.name === 'Trabajos' ? <Presentation className="w-4" /> : link.name === 'Formacion' ? <School className="w-4" /> : null} {link.name}
                     </Link>
                 </div>
             ))}

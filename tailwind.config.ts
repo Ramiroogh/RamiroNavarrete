@@ -20,6 +20,7 @@ const config = {
     extend: {
       spacing: {
         cardJobSize: '420px',
+        jobImageBig: '600px',
       },
       colors: {
         border: "hsl(var(--border))",
