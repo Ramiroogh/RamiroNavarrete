@@ -28,7 +28,7 @@ export default function Home() {
           <h1 className="text-5xl font-semibold tracking-normal scroll-m-20 capitalize text-white">Hola, Soy Ramiro</h1>
           <h2 className="text-3xl font-semibold tracking-normal scroll-m-20 capitalize text-white">Te Invito a Explorar mi Trayectoria Profesional</h2>
           <div className="flex gap-3">
-            <p className=" text-xl text-sky-500 font-semibold">Desarrollador Web Fullstack & Diseñador UX UI</p>
+            <p className=" text-xl text-sky-500 font-semibold">Desarrollador Web Fullstack <span className="text-white">&</span> Diseñador UX UI</p>
           <TypedHero />
           </div>
 
@@ -48,7 +48,7 @@ export default function Home() {
       </div>
       
 
-      <div className="p-10">
+      <div className="">
         <TrabajosRecientes />
       </div>
       

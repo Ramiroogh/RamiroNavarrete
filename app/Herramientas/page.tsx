@@ -139,7 +139,7 @@ export default function Herramientas() {
                     <Code2 className="text-primary" width={40} height={40}/>
                 </div>
                 
-                <div className="grid grid-cols-3 grid-rows-4 gap-4 p-2 rounded border border-gray-300">
+                <div className="grid grid-cols-3 grid-rows-4 bg-slate-500/20 gap-4 p-2 rounded border border-gray-300">
                     {herramientasDesarrolloWeb.map((item, index) => (
                         <GridComponent key={index} item={item} />
                     ))}
@@ -152,7 +152,7 @@ export default function Herramientas() {
                     <PenTool className="text-primary" width={40} height={40}/>
                 </div>
                 
-                <div className="grid grid-cols-3 grid-rows-2 gap-4 p-5 rounded border border-gray-300">
+                <div className="grid grid-cols-3 grid-rows-2 bg-slate-500/20 gap-4 p-5 rounded border border-gray-300">
                     {herramientasUXUI.map((item, index) => (
                         <GridComponent key={index} item={item} />
                     ))}
@@ -165,7 +165,7 @@ export default function Herramientas() {
                     <Clock10 className="text-primary" width={40} height={40}/>
                 </div>
                 
-                <div className="grid grid-cols-3 grid-rows-2 gap-4 p-3 rounded border border-gray-300">
+                <div className="grid grid-cols-3 grid-rows-2 gap-4 bg-slate-500/20 p-3 rounded border border-gray-300">
                     {herramientasProductividad.map((item, index) => (
                         <GridComponent key={index} item={item} />
                     ))}

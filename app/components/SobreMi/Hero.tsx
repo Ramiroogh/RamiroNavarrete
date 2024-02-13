@@ -10,7 +10,7 @@ export default function Hero() {
               <div style={{
                 clipPath: 'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
               }}
-              className='relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]'
+              className='relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#1842ce] to-[#89d2fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]'
               />
             </div>
 
@@ -21,7 +21,7 @@ export default function Hero() {
 
                   <section className="flex gap-10 p-5 border bg-gray-300/20 border-gray-300 hover:shadow-xl transition duration-300 rounded-lg">
                     <div className=" flex flex-col gap-3 max-w-lg">
-                        <h1 className="text-4xl font-semibold tracking-normal lg:5xl scroll-m-20 capitalize text-orange-500">Me llamo ramiro navarrete</h1>
+                        <h1 className="text-4xl font-semibold tracking-normal lg:5xl scroll-m-20 capitalize text-blue-800">Me llamo ramiro navarrete</h1>
                         <p className="text-xl font-medium">
                             Neuquén, Patagonia, Argentina.
                         </p>
@@ -43,7 +43,7 @@ export default function Hero() {
               <div style={{
                 clipPath: 'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
               }}
-              className='relative left-[calc(50%-13rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-36rem)] sm:w-[72.1875rem]'
+              className='relative left-[calc(50%-13rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#032eac] to-[#9089fc] opacity-30 sm:left-[calc(50%-36rem)] sm:w-[72.1875rem]'
               />
             </div>
 

@@ -55,7 +55,7 @@ const Estudios: React.FC = () => {
                 <p className="">Mi formación profesional se basa en mi experiencia laboral en Agencias, y de manera Freelancer. Y sobre todo gracias a mi capacitación por medio de Instituciones Educativas avaladas por el Gobierno Nacional Argentino, cursos ofrecidos por Grandes Empresas Tecnológicas y sobretodo por mi aprendizaje de forma Autodidacta y continua.</p>
             </div>
 
-            <section className="flex gap-3 mt-10 mb-10 w-4/5 items-center p-10 rounded-lg border-gray-200  hover:shadow-xl border-8 transition duration-300">
+            <section className="flex gap-3 mt-10 mb-10 w-4/5 bg-slate-500/20 items-center p-10 rounded-lg border-slate-300/40 hover:border-slate-300/80 hover:shadow-xl border-8 transition duration-300">
                 <div className="flex flex-col gap-2">
                     <h2 className="text-2xl font-semibold tracking-normal scroll-m-20 capitalize">Universidad Tecnológica Nacional UTN</h2>
                     <p className="font-medium mt-10">Diplomado: Desarrollador Web Fullstack</p>
@@ -76,7 +76,7 @@ const Estudios: React.FC = () => {
                 <h2 className="text-4xl text-primary font-semibold tracking-normal lg:5xl capitalize">Certificaciones</h2>
                 <p className="">Las empresas que señalo a continuacion, ayudaron a potenciar mis habilidades profesionales mediante cursos, capacitaciones intensivas y desarrollo de proyectos.</p>
 
-                <div className="grid grid-cols-3 grid-rows-4 mt-5 gap-5 p-5 rounded border border-gray-300">
+                <div className="grid grid-cols-3 grid-rows-4 bg-slate-500/10 mt-5 gap-5 p-5 rounded border border-gray-300 shadow-lg">
                     {Capacitaciones.map((item, index) => (
                         <FormacionItem key={index} item={item} />
                     ))}
