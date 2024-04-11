@@ -17,11 +17,12 @@ export default function ImageGallery({images}: iAppProps) {
 
     return(
         <>
-        <div className="flex p-10 gap-20">
+        <div className="flex gap-28 mt-5 w-4/3 h-heightVistaTrabajo justify-center z-10">
 
-            <div className=" flex flex-col gap-5  ">
+            {/* Previews miniatura */}
+            <div className="flex flex-col gap-5">
                 {images.map((image: any, index: any) => (
-                    <div key={index} className="w-32 overflow-hidden rounded-lg">
+                    <div key={index} className="w-20 overflow-hidden rounded-lg border border-gray-500/30">
                         <Image
                         src={urlFor(image).url()}
                         alt="image"
@@ -37,13 +38,14 @@ export default function ImageGallery({images}: iAppProps) {
             
             {/* Vista de la imagen GRANDE */}
             <div className="w-jobImageBig h-jobImageBig">
+                {/* La imagen depende del estado useState */}
                 <Image
                 src={urlFor(bigImage).url()}
                 width={1000}
                 height={1000}
                 alt="image"
                 priority
-                className="rounded-lg shadow-lg"
+                className="rounded-xl shadow-lg "
                 />
             </div>
             

@@ -19,8 +19,10 @@ const config = {
     },
     extend: {
       spacing: {
-        cardJobSize: '420px',
+        cardJobSize: '380px',
         jobImageBig: '600px',
+        heightHero: '600px',
+        heightVistaTrabajo: "700px"
       },
       colors: {
         border: "hsl(var(--border))",
@@ -35,6 +37,10 @@ const config = {
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
+        },
+        button: {
+          DEFAULT: "--button-bg",
+          foreground: "--button-bg-foreground",
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",

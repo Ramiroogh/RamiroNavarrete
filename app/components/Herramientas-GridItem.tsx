@@ -8,7 +8,7 @@ interface GridProps {
 const GridComponent: React.FC<GridProps> = ({ item }) => {
 
     return(
-        <div className="flex items-center w-52 gap-3 px-3 py-3 hover:bg-blue-600 hover:text-white rounded-md transition duration-300">
+        <div className="flex items-center w-60 gap-3 px-4 py-3 hover:bg-blue-600 hover:text-white rounded-md transition duration-300">
             <div className="">
                 <Image src={item.imageUrl} width={30} height={30} alt="image" priority />
             </div>

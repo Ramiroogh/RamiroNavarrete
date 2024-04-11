@@ -1,3 +1,9 @@
+.josefin-sans {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
 
 .container-reseña {
     /* width: 100%;

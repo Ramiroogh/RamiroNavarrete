@@ -1,0 +1,42 @@
+.header-bg {
+    color:#fff;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    z-index: 9;
+    padding: 0 1rem 0 1rem;
+    height: 50px;
+}
+.title-header {
+    font-family: 'Lexend', sans-serif;
+    position: relative;
+    z-index: 1;
+}
+.menu-dropdown-header {
+    left: -1rem;
+    top: 26px;
+    background-color: #000;
+}
+@media (max-width: 630px) {
+    .dropdown-button {
+        display: none;
+    }
+    .header-bg {
+        height: 40px;
+    }
+    .contact {
+        height: 30px;
+        width: 80px;
+        font-size: 12px;
+    }
+    
+}
+
+@media (max-width: 500px) {
+    .title-header {
+        font-size: 1rem;
+    }
+    .contact {
+        display: none;
+    }
+}
